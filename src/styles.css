@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
+    margin-left: -430px;
+}
+
+.watch-app {
+    position: relative;
+}
+
+.app-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+    overflow: hidden;
+}
+
+.time-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.time-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.time-section .time {
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
